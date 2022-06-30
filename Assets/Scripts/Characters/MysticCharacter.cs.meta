@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: f20719ebba4c3d4439434f581552c8fb
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - healthText: {fileID: 13246812, guid: 89d815f38e5b1664ea125584b35ddc7e, type: 2}
+  - spell1Text: {fileID: 13246814, guid: 89d815f38e5b1664ea125584b35ddc7e, type: 2}
+  - spell2Text: {fileID: 13246810, guid: 89d815f38e5b1664ea125584b35ddc7e, type: 2}
+  - spellOnePrefab: {instanceID: 0}
+  - spellTwoPrefab: {instanceID: 0}
+  - spellSpawnLeft: {fileID: 472016, guid: 1c9c001547261724e8105ca47c0113be, type: 2}
+  - spellSpawnRight: {fileID: 403464, guid: fe7f6ac1eeefcbb4db732d0ad90a6204, type: 2}
+  - icebeam: {fileID: 115432, guid: 2ff646b430bcf7d4f9b011246d3ba107, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

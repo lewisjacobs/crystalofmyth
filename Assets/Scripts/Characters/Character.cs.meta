@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7e1423e8daa136240a245b8a9fd15bb6
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - healthText: {fileID: 13246812, guid: 89d815f38e5b1664ea125584b35ddc7e, type: 2}
+  - spell1Text: {fileID: 13246814, guid: 89d815f38e5b1664ea125584b35ddc7e, type: 2}
+  - spell2Text: {fileID: 13246810, guid: 89d815f38e5b1664ea125584b35ddc7e, type: 2}
+  - spellOnePrefab: {instanceID: 0}
+  - spellTwoPrefab: {instanceID: 0}
+  - spellSpawnLeft: {instanceID: 0}
+  - spellSpawnRight: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

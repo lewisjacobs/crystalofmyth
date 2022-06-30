@@ -1,0 +1,296 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &134776
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 434776}
+  - 114: {fileID: 11434772}
+  - 114: {fileID: 11434776}
+  - 114: {fileID: 11434774}
+  - 114: {fileID: 11434770}
+  - 114: {fileID: 11427700}
+  - 114: {fileID: 11446944}
+  - 114: {fileID: 11490302}
+  - 114: {fileID: 11461092}
+  - 114: {fileID: 11473154}
+  - 114: {fileID: 11433234}
+  - 114: {fileID: 11462498}
+  m_Layer: 0
+  m_Name: '#Controller'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &434776
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 134776}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 415.361328, y: -479.831879, z: 851.615112}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11427700
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 134776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99bdd2a5c259ec849b1030eac596ad09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  smoothing: 1
+  TwoUsers: 0
+  UseBoneOrientationsConstraint: 1
+  IgnoreInferredJoints: 1
+  DetectClosestUser: 1
+  MinUserDistance: 1
+  MaxUserDistance: 0
+--- !u!114 &11433234
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 134776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fefaa8c23a56104ea885329bfc923cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scaleFactor: 0
+  lobbyTextPrefab: {fileID: 11480596, guid: e92f3093b486ceb499eb7aa257eeddf5, type: 2}
+  pollDelay: 1
+--- !u!114 &11434770
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 134776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 264b0f57dee9c7341837a19179c53f24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mysticSprites:
+  - {fileID: 21300000, guid: 6ead9fe696a5f4c4f8d25835c4c418b5, type: 3}
+  - {fileID: 21300000, guid: 2268010f1211eba438b5a9e46d15eb7e, type: 3}
+  - {fileID: 21300000, guid: 491611bc6554dca4d9a9c69b5b4c0c5e, type: 3}
+  - {fileID: 21300000, guid: d4989983e8490dd43b7c8e7364c6325e, type: 3}
+  - {fileID: 21300000, guid: c7924788ce13a5147873da5cfc782cb3, type: 3}
+  mysticmiddleSprite: {fileID: 21300000, guid: dedc0009b0833f74fbd4209845f3fd23, type: 3}
+  knightleftSprites:
+  - {fileID: 21300000, guid: 2d605c57a1f39024e9342821278ac189, type: 3}
+  - {fileID: 21300000, guid: d4dfb1ae8a1a3e346909def25a99006d, type: 3}
+  knightrightSprites:
+  - {fileID: 21300000, guid: f44fe863094f4594595be169df0b9009, type: 3}
+  - {fileID: 21300000, guid: 3be2266eb64b5254eaf7128de57b1f23, type: 3}
+  - {fileID: 21300000, guid: 769f25b25b968eb40850d1909dce431e, type: 3}
+  knightmiddleSprite: {fileID: 21300000, guid: 839c916c65284cf4ea8d3858a0bf9edd, type: 3}
+  barbarianleftSprites:
+  - {fileID: 21300000, guid: 716c77dc543287c469f5661451c10209, type: 3}
+  barbarianrightSprites:
+  - {fileID: 21300000, guid: 5df7e35cf9c96764a9d350ae9e9e39b6, type: 3}
+  - {fileID: 21300000, guid: f9dea0e0642c5984bbfd772088819512, type: 3}
+  - {fileID: 21300000, guid: 248864bc2cfa5af4ca571e8296c75a14, type: 3}
+  - {fileID: 21300000, guid: daa3cfc068553bc4bbe4674cb5fedc1c, type: 3}
+  barbarianmiddleSprite: {fileID: 21300000, guid: 9f422fc35999e274e89446ffa8e09768,
+    type: 3}
+  huntressleftSprites:
+  - {fileID: 21300000, guid: 3e55dad2166d10c419bc4daa641fdcdb, type: 3}
+  - {fileID: 21300000, guid: 342b0f326c0002a4fa2cfbf2a7829d3e, type: 3}
+  - {fileID: 21300000, guid: a7ef81ad23a17ce479fa07934dd025d4, type: 3}
+  huntressrightSprites:
+  - {fileID: 21300000, guid: 1f660768792d60341b1a9d99c4a2e361, type: 3}
+  - {fileID: 21300000, guid: b74047365ceca594cafc11db4a7c30ba, type: 3}
+  huntressmiddleSprite: {fileID: 21300000, guid: 3a22a282ced2c4642a5edce9d5f8693a,
+    type: 3}
+  overlordSprites:
+  - {fileID: 21300000, guid: d4989983e8490dd43b7c8e7364c6325e, type: 3}
+  - {fileID: 21300000, guid: c7924788ce13a5147873da5cfc782cb3, type: 3}
+  - {fileID: 21300000, guid: 6ead9fe696a5f4c4f8d25835c4c418b5, type: 3}
+  - {fileID: 21300000, guid: b1c9e2080fa16944aba6d43f9aba044a, type: 3}
+  attackIconPrefab: {fileID: 11455508, guid: 520e3f92f0508b543b51cf46c95c0b3f, type: 2}
+  defenceIconPrefab: {fileID: 11465516, guid: c5daf5ceaa9c89540b1ed449fc2db03b, type: 2}
+  crippleIconPrefab: {fileID: 11424746, guid: 3710de9f60e2fc8408b4555ca9c8229a, type: 2}
+  frozenIconPrefab: {fileID: 11496144, guid: b48496c4b3940d9448586c8badf1a448, type: 2}
+  chargeIconPrefab: {fileID: 11471358, guid: 61442392d2491be4ba2e9eb871d2a727, type: 2}
+  hasteIconPrefab: {fileID: 11432804, guid: ef4da0d0c6658204792e1fda5183f754, type: 2}
+  cursor: {fileID: 0}
+--- !u!114 &11434772
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 134776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb53e83a9d0ee214faaf9a4637197875, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UseTouchControls: 0
+  MysticCharacterPrefab: {fileID: 11474346, guid: a46711c9b2b894c429593d4ee6523e37,
+    type: 2}
+  KnightCharacterPrefab: {fileID: 11419390, guid: 46bfcd95f069d3d4abf4d6bb472ebc70,
+    type: 2}
+  BarbarianCharacterPrefab: {fileID: 11409146, guid: d3d9b369a6000ae4182268e99ebfdc53,
+    type: 2}
+  HuntressCharacterPrefab: {fileID: 11489102, guid: e0790033397f2324bbaf3afa4e1a5563,
+    type: 2}
+  DungeonMasterCharacterPrefab: {fileID: 11459576, guid: 53085c3f9ee032742a1c4d4d6723bc2b,
+    type: 2}
+  AIMysticCharacterPrefab: {fileID: 11465340, guid: 6fb6630dc6ba4eb47aa439002b297328,
+    type: 2}
+  AIKnightCharacterPrefab: {fileID: 11422724, guid: 1aa9ce3ba7e6bd449bd625191017dd26,
+    type: 2}
+  AIBarbarianCharacterPrefab: {fileID: 11496600, guid: 51ad7cfd90570894ea27e867cdb2490b,
+    type: 2}
+  AIHuntressCharacterPrefab: {fileID: 11482042, guid: 72f6a05a4941d9a44885f07d268ed910,
+    type: 2}
+--- !u!114 &11434774
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 134776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ece457f50a9e021448f510996e910fa4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11434776
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 134776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dff1759dc5fbd54bb86eeeb54ddc100, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11446944
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 134776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 857e97e0a6bd6434e82412815800f427, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MysticPortrait: {fileID: 21300000, guid: 25b18e6127d51094780e380dda0f7149, type: 3}
+  KnightPortrait: {fileID: 21300000, guid: 604574e278b55da4ea9e9cbd565e81e5, type: 3}
+  BarbarianPortrait: {fileID: 0}
+  HuntressPortrait: {fileID: 0}
+  OverlordPortrait: {fileID: 0}
+  DefaultPortrait: {fileID: 21300000, guid: a127d2669c998394fbbfc16d07e1b269, type: 3}
+  WhiteFrame: {fileID: 0}
+  BlueFrame: {fileID: 0}
+  RedFrame: {fileID: 0}
+  YellowFrame: {fileID: 0}
+  GreenFrame: {fileID: 0}
+  scaleFactor: 0
+  PlayerConnectionPrefab: {fileID: 11415508, guid: d96ee788caa2e6d4bbac117e35fac41d,
+    type: 2}
+--- !u!114 &11461092
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 134776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f127e527b215ce45ad01f7a68652f68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HandMotorSide: 0
+--- !u!114 &11462498
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 134776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2b7724413c055b499ab917da688b76b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11473154
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 134776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e470447ede638f408fed1939054b0ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mysticSpellSprites:
+  - {fileID: 21300000, guid: 6ead9fe696a5f4c4f8d25835c4c418b5, type: 3}
+  - {fileID: 21300000, guid: 2268010f1211eba438b5a9e46d15eb7e, type: 3}
+  - {fileID: 21300000, guid: 491611bc6554dca4d9a9c69b5b4c0c5e, type: 3}
+  - {fileID: 21300000, guid: d4989983e8490dd43b7c8e7364c6325e, type: 3}
+  - {fileID: 21300000, guid: c7924788ce13a5147873da5cfc782cb3, type: 3}
+  - {fileID: 21300000, guid: dedc0009b0833f74fbd4209845f3fd23, type: 3}
+  knightSpellSprites:
+  - {fileID: 21300000, guid: f44fe863094f4594595be169df0b9009, type: 3}
+  - {fileID: 21300000, guid: 2d605c57a1f39024e9342821278ac189, type: 3}
+  - {fileID: 21300000, guid: d4dfb1ae8a1a3e346909def25a99006d, type: 3}
+  - {fileID: 21300000, guid: 3be2266eb64b5254eaf7128de57b1f23, type: 3}
+  - {fileID: 21300000, guid: 769f25b25b968eb40850d1909dce431e, type: 3}
+  - {fileID: 21300000, guid: 839c916c65284cf4ea8d3858a0bf9edd, type: 3}
+  huntressSpellSprites:
+  - {fileID: 21300000, guid: 3e55dad2166d10c419bc4daa641fdcdb, type: 3}
+  - {fileID: 21300000, guid: 342b0f326c0002a4fa2cfbf2a7829d3e, type: 3}
+  - {fileID: 21300000, guid: a7ef81ad23a17ce479fa07934dd025d4, type: 3}
+  - {fileID: 21300000, guid: 1f660768792d60341b1a9d99c4a2e361, type: 3}
+  - {fileID: 21300000, guid: b74047365ceca594cafc11db4a7c30ba, type: 3}
+  - {fileID: 21300000, guid: 3a22a282ced2c4642a5edce9d5f8693a, type: 3}
+  barbarianSpellSprites:
+  - {fileID: 21300000, guid: 716c77dc543287c469f5661451c10209, type: 3}
+  - {fileID: 21300000, guid: 5df7e35cf9c96764a9d350ae9e9e39b6, type: 3}
+  - {fileID: 21300000, guid: f9dea0e0642c5984bbfd772088819512, type: 3}
+  - {fileID: 21300000, guid: 248864bc2cfa5af4ca571e8296c75a14, type: 3}
+  - {fileID: 21300000, guid: daa3cfc068553bc4bbe4674cb5fedc1c, type: 3}
+  - {fileID: 21300000, guid: 9f422fc35999e274e89446ffa8e09768, type: 3}
+  overlordSpellSprites:
+  - {fileID: 21300000, guid: d4989983e8490dd43b7c8e7364c6325e, type: 3}
+  - {fileID: 21300000, guid: c7924788ce13a5147873da5cfc782cb3, type: 3}
+  - {fileID: 21300000, guid: 6ead9fe696a5f4c4f8d25835c4c418b5, type: 3}
+  - {fileID: 21300000, guid: b1c9e2080fa16944aba6d43f9aba044a, type: 3}
+  - {fileID: 21300000, guid: 1803bba068db99b48a6d9360ae5661de, type: 3}
+  - {fileID: 21300000, guid: 1803bba068db99b48a6d9360ae5661de, type: 3}
+--- !u!114 &11490302
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 134776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef6d7a08f0a4cd24c82ad261e35315f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 134776}
+  m_IsPrefabParent: 1

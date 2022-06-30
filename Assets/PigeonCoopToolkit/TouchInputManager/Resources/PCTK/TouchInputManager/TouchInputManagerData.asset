@@ -1,0 +1,515 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76f6c2c72133f0646b9dfe7da0d795a8, type: 3}
+  m_Name: TouchInputManagerData
+  m_EditorClassIdentifier: 
+  Layers:
+  - LayerID: Main
+    TouchButtons:
+    - DeviceID: FireRight
+      ActiveRegion:
+        serializedVersion: 2
+        x: .899553776
+        y: .468254507
+        width: .100446224
+        height: .194444746
+      ActiveRegionOffset: {x: .5, y: .5}
+      Style:
+        BottomPressed:
+          TouchMaterial: {fileID: 2100000, guid: 1de3eaa21a60cfa438927b33f15a1ad8,
+            type: 2}
+          Color: {r: 1, g: 1, b: 1, a: 1}
+          Size: .150000006
+        BottomReleased:
+          TouchMaterial: {fileID: 2100000, guid: 1de3eaa21a60cfa438927b33f15a1ad8,
+            type: 2}
+          Color: {r: 1, g: 1, b: 1, a: 1}
+          Size: .100000001
+        TopPressed:
+          TouchMaterial: {fileID: 2100000, guid: 77087a42147546740bf9dd5f612b35b4,
+            type: 2}
+          Color: {r: 1, g: 1, b: 1, a: 1}
+          Size: .150000006
+        TopReleased:
+          TouchMaterial: {fileID: 2100000, guid: 77087a42147546740bf9dd5f612b35b4,
+            type: 2}
+          Color: {r: 1, g: 1, b: 1, a: 1}
+          Size: .0500000007
+        AnimationDuration: 1
+        AnimationCurve:
+          serializedVersion: 2
+          m_Curve:
+          - time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        ReturnOnRelease: 1
+        ReturnOnReleaseTime: 1
+        ReturnAnimationCurve:
+          serializedVersion: 2
+          m_Curve:
+          - time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+    - DeviceID: FireLeft
+      ActiveRegion:
+        serializedVersion: 2
+        x: 0
+        y: .436508119
+        width: .0982142612
+        height: .206348509
+      ActiveRegionOffset: {x: .5, y: .5}
+      Style:
+        BottomPressed:
+          TouchMaterial: {fileID: 2100000, guid: 1de3eaa21a60cfa438927b33f15a1ad8,
+            type: 2}
+          Color: {r: 1, g: 1, b: 1, a: 1}
+          Size: .150000006
+        BottomReleased:
+          TouchMaterial: {fileID: 2100000, guid: 1de3eaa21a60cfa438927b33f15a1ad8,
+            type: 2}
+          Color: {r: 1, g: 1, b: 1, a: 1}
+          Size: .100000001
+        TopPressed:
+          TouchMaterial: {fileID: 2100000, guid: 77087a42147546740bf9dd5f612b35b4,
+            type: 2}
+          Color: {r: 1, g: 1, b: 1, a: 1}
+          Size: .150000006
+        TopReleased:
+          TouchMaterial: {fileID: 2100000, guid: 77087a42147546740bf9dd5f612b35b4,
+            type: 2}
+          Color: {r: 1, g: 1, b: 1, a: 1}
+          Size: .0500000007
+        AnimationDuration: 1
+        AnimationCurve:
+          serializedVersion: 2
+          m_Curve:
+          - time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        ReturnOnRelease: 1
+        ReturnOnReleaseTime: 1
+        ReturnAnimationCurve:
+          serializedVersion: 2
+          m_Curve:
+          - time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+    - DeviceID: SwitchRight
+      ActiveRegion:
+        serializedVersion: 2
+        x: .740253091
+        y: .465595841
+        width: .102329172
+        height: .201399311
+      ActiveRegionOffset: {x: .5, y: .5}
+      Style:
+        BottomPressed:
+          TouchMaterial: {fileID: 2100000, guid: 1de3eaa21a60cfa438927b33f15a1ad8,
+            type: 2}
+          Color: {r: 1, g: 1, b: 1, a: 1}
+          Size: .150000006
+        BottomReleased:
+          TouchMaterial: {fileID: 2100000, guid: 1de3eaa21a60cfa438927b33f15a1ad8,
+            type: 2}
+          Color: {r: 1, g: 1, b: 1, a: 1}
+          Size: .100000001
+        TopPressed:
+          TouchMaterial: {fileID: 2100000, guid: 77087a42147546740bf9dd5f612b35b4,
+            type: 2}
+          Color: {r: 1, g: 1, b: 1, a: 1}
+          Size: .319999993
+        TopReleased:
+          TouchMaterial: {fileID: 2100000, guid: 77087a42147546740bf9dd5f612b35b4,
+            type: 2}
+          Color: {r: 1, g: 1, b: 1, a: 1}
+          Size: .0500000007
+        AnimationDuration: 1
+        AnimationCurve:
+          serializedVersion: 2
+          m_Curve:
+          - time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        ReturnOnRelease: 1
+        ReturnOnReleaseTime: 1
+        ReturnAnimationCurve:
+          serializedVersion: 2
+          m_Curve:
+          - time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+    - DeviceID: SwitchLeft
+      ActiveRegion:
+        serializedVersion: 2
+        x: .154529989
+        y: .45183441
+        width: .105791301
+        height: .183486775
+      ActiveRegionOffset: {x: .5, y: .5}
+      Style:
+        BottomPressed:
+          TouchMaterial: {fileID: 2100000, guid: 1de3eaa21a60cfa438927b33f15a1ad8,
+            type: 2}
+          Color: {r: 1, g: 1, b: 1, a: 1}
+          Size: .150000006
+        BottomReleased:
+          TouchMaterial: {fileID: 2100000, guid: 1de3eaa21a60cfa438927b33f15a1ad8,
+            type: 2}
+          Color: {r: 1, g: 1, b: 1, a: 1}
+          Size: .100000001
+        TopPressed:
+          TouchMaterial: {fileID: 2100000, guid: 77087a42147546740bf9dd5f612b35b4,
+            type: 2}
+          Color: {r: 1, g: 1, b: 1, a: 1}
+          Size: .150000006
+        TopReleased:
+          TouchMaterial: {fileID: 2100000, guid: 77087a42147546740bf9dd5f612b35b4,
+            type: 2}
+          Color: {r: 1, g: 1, b: 1, a: 1}
+          Size: .0500000007
+        AnimationDuration: 1
+        AnimationCurve:
+          serializedVersion: 2
+          m_Curve:
+          - time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        ReturnOnRelease: 1
+        ReturnOnReleaseTime: 1
+        ReturnAnimationCurve:
+          serializedVersion: 2
+          m_Curve:
+          - time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+    - DeviceID: Jump2
+      ActiveRegion:
+        serializedVersion: 2
+        x: .251721174
+        y: .730121374
+        width: .0944449976
+        height: .169724584
+      ActiveRegionOffset: {x: .5, y: .5}
+      Style:
+        BottomPressed:
+          TouchMaterial: {fileID: 2100000, guid: 1de3eaa21a60cfa438927b33f15a1ad8,
+            type: 2}
+          Color: {r: 1, g: 1, b: 1, a: 1}
+          Size: .150000006
+        BottomReleased:
+          TouchMaterial: {fileID: 2100000, guid: 1de3eaa21a60cfa438927b33f15a1ad8,
+            type: 2}
+          Color: {r: 1, g: 1, b: 1, a: 1}
+          Size: .0900000036
+        TopPressed:
+          TouchMaterial: {fileID: 2100000, guid: 77087a42147546740bf9dd5f612b35b4,
+            type: 2}
+          Color: {r: 1, g: 1, b: 1, a: 1}
+          Size: .150000006
+        TopReleased:
+          TouchMaterial: {fileID: 2100000, guid: 77087a42147546740bf9dd5f612b35b4,
+            type: 2}
+          Color: {r: 1, g: 1, b: 1, a: 1}
+          Size: .0900000036
+        AnimationDuration: 1
+        AnimationCurve:
+          serializedVersion: 2
+          m_Curve:
+          - time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        ReturnOnRelease: 1
+        ReturnOnReleaseTime: 1
+        ReturnAnimationCurve:
+          serializedVersion: 2
+          m_Curve:
+          - time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+    - DeviceID: Jump
+      ActiveRegion:
+        serializedVersion: 2
+        x: .644782782
+        y: .733944654
+        width: .102637582
+        height: .155963823
+      ActiveRegionOffset: {x: .5, y: .5}
+      Style:
+        BottomPressed:
+          TouchMaterial: {fileID: 2100000, guid: 1de3eaa21a60cfa438927b33f15a1ad8,
+            type: 2}
+          Color: {r: 1, g: 1, b: 1, a: 1}
+          Size: .150000006
+        BottomReleased:
+          TouchMaterial: {fileID: 2100000, guid: 1de3eaa21a60cfa438927b33f15a1ad8,
+            type: 2}
+          Color: {r: 1, g: 1, b: 1, a: 1}
+          Size: .0900000036
+        TopPressed:
+          TouchMaterial: {fileID: 2100000, guid: 77087a42147546740bf9dd5f612b35b4,
+            type: 2}
+          Color: {r: 1, g: 1, b: 1, a: 1}
+          Size: .150000006
+        TopReleased:
+          TouchMaterial: {fileID: 2100000, guid: 77087a42147546740bf9dd5f612b35b4,
+            type: 2}
+          Color: {r: 1, g: 1, b: 1, a: 1}
+          Size: .0900000036
+        AnimationDuration: 1
+        AnimationCurve:
+          serializedVersion: 2
+          m_Curve:
+          - time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        ReturnOnRelease: 1
+        ReturnOnReleaseTime: 1
+        ReturnAnimationCurve:
+          serializedVersion: 2
+          m_Curve:
+          - time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+    TouchJoysticks:
+    - DeviceID: Left
+      ActiveRegion:
+        serializedVersion: 2
+        x: 0
+        y: .634920239
+        width: .252232611
+        height: .365079761
+      ActiveRegionOffset: {x: .5, y: .5}
+      Style:
+        BottomPressed:
+          TouchMaterial: {fileID: 2100000, guid: 1de3eaa21a60cfa438927b33f15a1ad8,
+            type: 2}
+          Color: {r: 1, g: 1, b: 1, a: 1}
+          Size: .150000006
+        BottomReleased:
+          TouchMaterial: {fileID: 2100000, guid: 1de3eaa21a60cfa438927b33f15a1ad8,
+            type: 2}
+          Color: {r: 1, g: 1, b: 1, a: 1}
+          Size: .150000006
+        TopPressed:
+          TouchMaterial: {fileID: 2100000, guid: 77087a42147546740bf9dd5f612b35b4,
+            type: 2}
+          Color: {r: 1, g: 1, b: 1, a: 1}
+          Size: .150000006
+        TopReleased:
+          TouchMaterial: {fileID: 2100000, guid: 77087a42147546740bf9dd5f612b35b4,
+            type: 2}
+          Color: {r: 1, g: 1, b: 1, a: 1}
+          Size: .150000006
+        AnimationDuration: 1
+        AnimationCurve:
+          serializedVersion: 2
+          m_Curve:
+          - time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        ReturnOnRelease: 1
+        ReturnOnReleaseTime: 1
+        ReturnAnimationCurve:
+          serializedVersion: 2
+          m_Curve:
+          - time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+      Deadzone: 0
+    - DeviceID: Right
+      ActiveRegion:
+        serializedVersion: 2
+        x: .743303299
+        y: .642857671
+        width: .256696701
+        height: .357142329
+      ActiveRegionOffset: {x: .5, y: .5}
+      Style:
+        BottomPressed:
+          TouchMaterial: {fileID: 2100000, guid: 1de3eaa21a60cfa438927b33f15a1ad8,
+            type: 2}
+          Color: {r: 1, g: 1, b: 1, a: 1}
+          Size: .150000006
+        BottomReleased:
+          TouchMaterial: {fileID: 2100000, guid: 1de3eaa21a60cfa438927b33f15a1ad8,
+            type: 2}
+          Color: {r: 1, g: 1, b: 1, a: 1}
+          Size: .150000006
+        TopPressed:
+          TouchMaterial: {fileID: 2100000, guid: 77087a42147546740bf9dd5f612b35b4,
+            type: 2}
+          Color: {r: 1, g: 1, b: 1, a: 1}
+          Size: .150000006
+        TopReleased:
+          TouchMaterial: {fileID: 2100000, guid: 77087a42147546740bf9dd5f612b35b4,
+            type: 2}
+          Color: {r: 1, g: 1, b: 1, a: 1}
+          Size: .150000006
+        AnimationDuration: 1
+        AnimationCurve:
+          serializedVersion: 2
+          m_Curve:
+          - time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        ReturnOnRelease: 1
+        ReturnOnReleaseTime: 1
+        ReturnAnimationCurve:
+          serializedVersion: 2
+          m_Curve:
+          - time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+      Deadzone: 0

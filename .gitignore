@@ -1,0 +1,46 @@
+# =============== #
+# Specifi To Max  #
+# =============== #
+Bin/
+bin/
+Assets/Models
+Assets/Animations
+*.db*
+
+# =============== #
+# Unity generated #
+# =============== #
+Temp/
+Library/
+Library/metadata/*
+
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+ExportedObj/
+obj/
+*.svd
+*.userprefs
+/*.csproj
+*.pidb
+*.suo
+/*.sln
+*.user
+*.unityproj
+*.booproj
+
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Doxgen/Documentation/
+Assets/3DForge/
+Doxgen/
+Assets/CAVESYSTEM/
+Assets/CAVESYSTEM.meta

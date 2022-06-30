@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 857e97e0a6bd6434e82412815800f427
+timeCreated: 1429050337
+licenseType: Pro
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - MysticPortrait: {fileID: 21300000, guid: 25b18e6127d51094780e380dda0f7149, type: 3}
+  - KnightPortrait: {fileID: 21300000, guid: 604574e278b55da4ea9e9cbd565e81e5, type: 3}
+  - DefaultPortrait: {fileID: 21300000, guid: a127d2669c998394fbbfc16d07e1b269, type: 3}
+  - PlayerConnectionPrefab: {fileID: 11415508, guid: d96ee788caa2e6d4bbac117e35fac41d,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
